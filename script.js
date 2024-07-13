@@ -20,7 +20,7 @@ submitButton.addEventListener("click", function() {
 });
 
 function displayImages(genre) {
-    let imgDir = `images/${genre.replace(/\s/g, '')}/`;
+    let imgDir = `images/${genre.toLowerCase().replace(/\s/g, '')}/`;
     let images = [];
     
     if (genre === "Souls-like") {
