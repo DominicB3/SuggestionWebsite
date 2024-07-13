@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<title>Game Suggestion Website</title>
+    	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    	<link href="style.css" rel="stylesheet">
+    	<script defer src="script.js"></script>
+	</head>
+	<body>
+    	<h1>What Should I Play?</h1>
+    	<img class="pop-icon" src="images/controller.png">
+    	<br>
+    	<p>Type in a genre below or select from the dropdown!</p>
+
+    	<input id="genreInput" list="genres" placeholder="Action, Platformer, Turn-Based, etc.">
+    	<datalist id="genres">
+        	<option value="Action">
+        	<option value="Turn-Based">
+        	<option value="Horror">
+        	<option value="Open-World">
+        	<option value="Fighting">
+        	<option value="Rhythm">
+        	<option value="Visual Novel">
+        	<option value="Stealth">
+        	<option value="Souls-like">
+        	<option value="Roguelite">
+        	<option value="Boomershooter">
+        	<option value="Platformer">
+        	<option value="RPGs">
+    	</datalist>
+
+    	<button>Submit!</button>
+    	<div class="content">
+    	</div>
+	</body>
+</html>
